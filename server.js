@@ -49,7 +49,7 @@ db.once("open", () => {
         roomId: messageDetails.roomId,
       });
     } else {
-      console.log("Error triggering Pusher");
+      console.log("Error triggering Pusherr");
     }
   });
 });
